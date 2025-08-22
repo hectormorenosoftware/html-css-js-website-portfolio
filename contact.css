@@ -1,0 +1,81 @@
+body {
+  font-family: "Lato";
+  margin: 0;
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 1.3;
+}
+
+.GoBackButtonGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.GoBackButton {
+  cursor: pointer;
+  width: 15%;
+}
+
+.ContactGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: 100vh;
+}
+
+.IconFlexBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-email {
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    color: #ffdf00;
+  }
+}
+
+.contact-phone {
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    color: #ff0000;
+  }
+}
+
+.contact-linkedin {
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    color: #0a66c2;
+  }
+}
+
+.contact-github {
+  cursor: pointer;
+
+  &:hover {
+    color: gray;
+  }
+}
+
+.contact-whatsapp {
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(100, 222, 156);
+  }
+}
+
+#removedMargin {
+  margin: 0;
+  padding: 50px;
+  font-weight: 350;
+}
