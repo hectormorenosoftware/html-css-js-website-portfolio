@@ -25,6 +25,7 @@
       <div class="Header">
         <div class="HeaderGroup">
           <a onclick="openContactPage()">Contact</a>
+          <a onclick="openCompaniesPage()">Companies</a>
           <a onclick="openQUestionsAndAnswersPage()">Questions</a>
         </div>
       </div>
@@ -38,11 +39,15 @@
   </body>
   <script>
     function openContactPage() {
-      window.open("./contact.html");
+      return window.open("./contact.html");
     }
 
     function openQUestionsAndAnswersPage() {
-      window.open("./questions.html")
+      return location.href = "./questions.html";
+    }
+
+    function openCompaniesPage() {
+      return location.href = "./companies.html";
     }
   </script>
 </html>
