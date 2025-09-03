@@ -57,7 +57,7 @@ body {
 .CardGroup {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
+  grid-gap: 100px;
   justify-items: center;
   margin: 10px 40px 100px;
 
