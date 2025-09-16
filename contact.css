@@ -34,24 +34,24 @@ body {
 
 .contact-email {
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.8s;
 
   &:hover {
-    color: #ffdf00;
+    color: #daa520;
   }
 }
 
 .contact-phone {
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.8s;
   &:hover {
-    color: #ff0000;
+    color: #0fff50;
   }
 }
 
 .contact-linkedin {
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.8s;
 
   &:hover {
     color: #0a66c2;
@@ -60,14 +60,16 @@ body {
 
 .contact-github {
   cursor: pointer;
+  transition: 0.8s;
 
   &:hover {
-    color: gray;
+    color: #800080;
   }
 }
 
 .contact-whatsapp {
   cursor: pointer;
+  transition: 0.8s;
 
   &:hover {
     color: rgb(100, 222, 156);
