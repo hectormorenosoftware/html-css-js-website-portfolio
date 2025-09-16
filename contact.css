@@ -81,3 +81,7 @@ body {
   padding: 50px;
   font-weight: 350;
 }
+
+#contact-me-message {
+  text-align: center;
+}
