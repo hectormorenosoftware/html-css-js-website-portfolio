@@ -31,10 +31,8 @@
       <p id="contact-me-message">Contact me by clicking on any of the icons below from 9am to 5pm CST.</p>
       <div class="IconFlexBox">
         <i class="fa-solid fa-envelope fa-2x contact-email" onclick="sendEmail()"></i>
-        <i class="fa-solid fa-phone fa-2x contact-phone" onclick="callPhoneNumber()"></i>
         <i class="fa-brands fa-linkedin fa-2x contact-linkedin" onclick="openLinkedIn()"></i>
         <i class="fa-brands fa-github fa-2x contact-github" onclick="openGithub()"></i>
-        <i class="fa-brands fa-whatsapp fa-2x contact-whatsapp" onclick=" openWhatsapp()"></i>
       </div>
     </div>
   </body>
@@ -43,9 +41,6 @@
       return window.open("mailto:hectormorenosoftware@gmail.com")
     }
 
-    function callPhoneNumber() {
-      return window.open("tel:4152120456");
-    }
     function openLinkedIn() {
       return window.open(
          "https://www.linkedin.com/in/hector-moreno-93200728a/",
@@ -54,9 +49,6 @@
     }
     function openGithub() {
       return window.open("https://github.com/hectormorenosoftware", "_blank");
-    }
-    function openWhatsapp() {
-      return window.open("https://api.whatsapp.com/send?phone=4152120456")
     }
 
     function goBackToHome() {

@@ -41,14 +41,6 @@ body {
   }
 }
 
-.contact-phone {
-  cursor: pointer;
-  transition: 0.8s;
-  &:hover {
-    color: #0fff50;
-  }
-}
-
 .contact-linkedin {
   cursor: pointer;
   transition: 0.8s;
@@ -64,15 +56,6 @@ body {
 
   &:hover {
     color: #800080;
-  }
-}
-
-.contact-whatsapp {
-  cursor: pointer;
-  transition: 0.8s;
-
-  &:hover {
-    color: rgb(100, 222, 156);
   }
 }
 
