@@ -59,10 +59,10 @@ input:focus {
   background-color: transparent;
   font-size: 24px;
   font-weight: 350;
-  transition: 0.5s;
+  transition: 0.8s;
 
   &:hover {
-    background-color: #ffff00;
+    background: linear-gradient(102.24deg, #56ccf2 0%, #3436e7 100%);
     color: black;
     border: none;
   }
