@@ -63,7 +63,7 @@ input:focus {
 
   &:hover {
     background: linear-gradient(102.24deg, #56ccf2 0%, #3436e7 100%);
-    color: black;
+    color: yellow;
     border: none;
   }
 }
