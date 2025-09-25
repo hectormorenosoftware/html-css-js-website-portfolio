@@ -55,7 +55,7 @@ input:focus {
   border-radius: 20px;
   border: 1px solid white;
   cursor: pointer;
-  color: black;
+  color: white;
   background: linear-gradient(102.24deg, #f31768 0%, #f5d323 100%);
   font-size: 24px;
   font-weight: 385;
