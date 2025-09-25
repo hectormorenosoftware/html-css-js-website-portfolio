@@ -53,17 +53,17 @@ input:focus {
   width: 280px;
   height: 45px;
   border-radius: 20px;
-  border: 2.75px solid white;
+  border: 1px solid white;
   cursor: pointer;
-  color: white;
-  background-color: transparent;
+  color: black;
+  background: linear-gradient(102.24deg, #f31768 0%, #f5d323 100%);
   font-size: 24px;
-  font-weight: 350;
+  font-weight: 385;
   transition: 0.8s;
 
   &:hover {
-    background: linear-gradient(102.24deg, #f31768 0%, #f5d323 100%);
-    color: black;
+    background: linear-gradient(102.24deg, #00ffff 0%, #00a36c 100%);
+    color: white;
     border: none;
   }
 }
