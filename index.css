@@ -33,7 +33,7 @@ input:focus {
   height: 100vh;
   padding: 250px 50px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.78);
   user-select: none;
 }
 
