@@ -55,7 +55,7 @@ input:focus {
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  color: white;
+  color: black;
   background: linear-gradient(102.24deg, #f31768 0%, #f5d323 100%);
   font-size: 24px;
   font-weight: 390;
@@ -63,7 +63,7 @@ input:focus {
 
   &:hover {
     background: linear-gradient(102.24deg, #00ffff 0%, #00a36c 100%);
-    color: black;
+    color: white;
     border: none;
   }
 }
