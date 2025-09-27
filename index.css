@@ -74,15 +74,15 @@ input:focus {
   padding: 15px 0;
   background-color: transparent;
   z-index: 1;
-  transition: 0.5s;
 
   a {
     color: white;
     cursor: pointer;
     font-weight: 350;
+    transition: 0.8s;
 
     &:hover {
-      color: #ffff00;
+      color: #cf9fff;
     }
   }
 }
