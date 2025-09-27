@@ -50,9 +50,9 @@ input:focus {
 
 #HeroButton {
   font-family: "Lato";
-  width: 280px;
-  height: 45px;
-  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
   border: none;
   cursor: pointer;
   color: white;
