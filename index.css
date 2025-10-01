@@ -82,7 +82,7 @@ input:focus {
     transition: 0.8s;
 
     &:hover {
-      color: #cf9fff;
+      color: #00ffff;
     }
   }
 }
